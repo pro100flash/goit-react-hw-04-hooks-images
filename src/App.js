@@ -84,10 +84,10 @@ export default function App() {
 
       {isLoading && (
         <Loader
-          type="BallTriangle"
+          type="Puff"
           color="#00BFFF"
-          height={200}
-          width={200}
+          height={100}
+          width={100}
           className={S.Loader}
         />
       )}
